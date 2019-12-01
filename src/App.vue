@@ -346,7 +346,8 @@
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     z-index: 999;
-    border-radius: $border-radius-8;
+    border-top-left-radius: $border-radius-8;
+    border-top-right-radius: $border-radius-8;
   }
 
   .bottom-nav a {
