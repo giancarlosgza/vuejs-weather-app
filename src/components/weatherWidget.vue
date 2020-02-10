@@ -26,7 +26,7 @@
               <div class="row">
                 <!-- TODAY -->
                 <div class="col-6 col-md-2 mb-2">
-                  <div class="text-primary-light">TODAY</div>
+                  <div class="text-primary-light font-weight-bold">TODAY</div>
                 </div>
                 <!-- DATE -->
                 <div class="offset-md-8 col-6 col-md-2 text-center mb-2">

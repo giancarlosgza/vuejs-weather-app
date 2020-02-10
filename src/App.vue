@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-none d-sm-none d-sm-block">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top d-none d-sm-none d-sm-block">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="../src/assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Vue Logo">
@@ -27,14 +27,14 @@
       <div class="row text-center">
         <div class="col-6">
           <router-link to="/" class="active">
-            <i class="material-icons-outlined">home</i><br>
-            Weather
+            <i class="material-icons" style="font-size: 32px">home</i><br>
+            
           </router-link>
         </div>
         <div class="col-6">
           <router-link to="/about" class="">
-            <i class="material-icons-outlined">cloud_download</i><br>
-            API
+            <i class="material-icons" style="font-size: 32px">cloud_download</i><br>
+            
           </router-link>
         </div>
       </div>
@@ -51,9 +51,9 @@
   /////////////////////// - VARIABLES - ///////////////////////
 
   // background-color
-  $bg-primary-light: #eaebff;
-  $bg-primary: #304ffe;
-  $bg-primary-dark: #1e3ae5;
+  $bg-primary-light: #ffa689;
+  $bg-primary: #ff815a;
+  $bg-primary-dark: #ff6334;
   $bg-secondary: #ffab00;
   $bg-success-light: #cdffd6;
   $bg-warning-light: #fdfcb8;
@@ -67,9 +67,9 @@
   $bg-blue-gradient: linear-gradient(to right, #4497f5, #75ddff);
   $bg-red-gradient: linear-gradient(to right, #f58080, #f5a1a1);
   // text-color
-  $text-primary-light: #7a89ff;
-  $text-primary: #304ffe;
-  $text-primary-dark: #1e3ae5;
+  $text-primary-light: #ffa689;
+  $text-primary: #ff815a;
+  $text-primary-dark: #ff6334;
   $text-secondary-light: #ffdc1c;
   $text-secondary: #ffab00;
   $text-secondary-dark: #fe7f00;
